@@ -4,7 +4,7 @@ os.chdir('put directory you saved py and csv files')
 os.getcwd()
 
 # MOVE ALL py files exept main.py TO A NEW FOLDER BUT IN THE SAME DIRECTORY AND
-# RENAME IT TO "objects". yOU NEED THIS FOLDER TO ACCESS EACH TACK CODE SEPERATELY IN
+# RENAME IT TO "objects". YOU NEED THIS FOLDER TO ACCESS EACH TASK CODE SEPERATELY IN
 # THE BELOW LINES. IF YOU HAVE ISSUE, CONTACT ME: fara.aije@gmail.com :) 
 
 #%% Task 1
