@@ -1,11 +1,9 @@
 # Analysis of political events using Twitter
-This is a project detail on how to apply NLP techniques on tweets related to Ukraine war.
-In codes folder, all of below 9 tasks are done. Each task related code is seperately in a folder named "objects". From task 1 to 9, object ti to tx can be used in which ti, tii, ..., and tx stand for task 1,2, ..., 9. Using main.py file, you can access all of codes in the object folder. 
-You need to have these packages to be able to run the codes: pandas, nltk, numpy, matplotlib, spacy, gensim, ast, pickle, wordcloud, and empath.
-Input of main.py file is uploaded too. 
-In the first task, the input is raw tweets .csv file. You can download it here (named march.csv) or access it through Ukraine Conflict Twitter Dataset (53.33M tweets) | Kaggle website. Please consider that you need to have a column of "text" in your input tweet csv file.
-In task 2, the raw tweets csv file are preprocess and cleaned. In this step, stopwords are excluded and those words that have meaning in english are kept using nltk package. This step takes time. To save time, you can use "clear_tok_neg.csv", "clear_tok_pos.csv", and "clear_tok_neut.csv" files in which negative, positve and neurtal tweets based on their sentiment scores (using nltk SentimentIntensityAnalyzer) are extracted. 
-From task3 to 9, inputs are "clear_tok_neg.csv", "clear_tok_pos.csv", and "clear_tok_neut.csv" files.
+- This is a project detail on how to apply Natual Language Processing techniques on tweets related to Ukraine war.
+- All of below 9 tasks are done seperately in py files ti, tii, ..., tx in which ti, tii, ..., and tx stand for task 1,2, ..., 9. Using main.py file, you can access all of codes in the object folder. 
+- You need to have these packages to be able to run the codes: pandas, nltk, numpy, matplotlib, spacy, gensim, ast, pickle, wordcloud, and empath.
+- Input of main.py file is uploaded too. In the first task, the input is raw tweets .csv file. You can download it here (named march.csv) or access it through Ukraine Conflict Twitter Dataset (53.33M tweets) | Kaggle website. Please consider that you need to have a column of "text" in your input tweet csv file.
+- In task 2, the raw tweets csv file are preprocess and cleaned. In this step, stopwords are excluded and those words that have meaning in english are kept using nltk package. This step takes time. To save time, you can use "clear_tok_neg.csv", "clear_tok_pos.csv", and "clear_tok_neut.csv" files in which negative, positve and neurtal tweets based on their sentiment scores (using nltk SentimentIntensityAnalyzer) are extracted. From task3 to 9, inputs are "clear_tok_neg.csv", "clear_tok_pos.csv", and "clear_tok_neut.csv" files.
 
 ## Tasks description:
 Consider The Twitter dataset of Ukraine conflict available at Ukraine Conflict Twitter Dataset (53.33M tweets) | Kaggle. As the dataset is high, so you may consider taking only a sample of dataset up to 100MB dataset size. You may look at examples in NLTK online book of script handling tweet dataset. 
