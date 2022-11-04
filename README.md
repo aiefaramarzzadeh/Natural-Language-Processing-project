@@ -1,6 +1,6 @@
 # Analysis of political events using Twitter
 - This is a project detail on how to apply Natual Language Processing techniques on tweets related to Ukraine war.
-- All of 9 defined tasks (see task description section below) are done seperately in py files ti, tii, ..., tx in which ti, tii, ..., and tx stand for task 1,2, ..., 9. Using main.py file, you can access all of codes (After downloading codes, I recommend to replace ti, tii, ..., tx py files in a folder and rename it to "objects" then rund main.py file). 
+- All of 9 defined tasks (see task description section below) are done seperately in py files ti, tii, ..., tx in which ti, tii, ..., and tx stand for task 1,2, ..., 9. Using main.py file, you can access all of codes. After downloading codes, I recommend to replace ti, tii, ..., tx py files in a folder and rename it to "objects" then rund main.py file. 
 - Final output of all tasks are uploaded in a file named "1. final outputs.7z"
 - A presentation is uploaded to show background of the investigated topic, presenting results and providing more help on how codes are designed.
 - A report is uploaded (Report.pdf) to explain in more detail about the background and results of the project. 
